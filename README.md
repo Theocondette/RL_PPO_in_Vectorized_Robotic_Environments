@@ -37,19 +37,15 @@ See bellow fun GIF visualization of how the agents learnt:
 
 **InvertedPendulum-v4**
 
-Before :
+![Before learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/InvertedPendulum_before.gif)
 
-GIF
+![After learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Inverted_pendulum_after.gif)
 
-After
-
-GIF
+![Learning Curve](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Inverted_pendulum_learning.png)
 
 **Humanoid-v4**
 
-Before :
-
-GIF
+![Before learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_before.gif)
 
 After
 
