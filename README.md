@@ -21,7 +21,7 @@ The code is organized as follow :
 * model.py : contains Actor (Forward propagation of actor neural network) and Critic class(Forward propagation of critic neural network).
 * PPO.py : contains PPO class (training process, Kullback-Leibler divergence computation, generalized advantage estimation process) and Normalize class.
 * main.py : contains the code to run.
-* Images : Score of our 
+* Images : contains graphs and GIF. 
 
 3 - Implement the algorithm in various environment
 
