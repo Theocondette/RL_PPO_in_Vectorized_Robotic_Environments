@@ -1,7 +1,7 @@
 # RL_PPO_in_Vectorized_Robotic_Environments
 
 ## Objective
-This project delves into implementing and analyzing the Proximal Policy Optimization (PPO) algorithm in vectorized robotic environments, such as those provided by Mujoco and BRAX. The primary goal is to develop a PPO agent from scratch and evaluate its performance in various complex environments.
+This project delves into implementing and analyzing the Proximal Policy Optimization (PPO) algorithm in vectorized robotic environments, such as those provided by Mujoco and BRAX.
 
 ## Methodology
 
@@ -12,7 +12,7 @@ Also, I recommend many websites to [learn about RL]( https://spinningup.openai.c
 
 2 - Code a PPO
 
-Drawing guidance from the coding citations below, I implementated a PPO for environments with continuous observation and action space.
+Based on the coding references provided, I developed an implementation of PPO tailored for environments characterized by continuous observation and action spaces.
 
 The code is organized as follow :
 
@@ -23,13 +23,11 @@ The code is organized as follow :
 
 3 - Implement the algorithm in various environment
 
-  a) Inverted Pendulum Mujoco environment.
-
-  b) Humanoid Mujoco environment
+I implement and evaluate the PPO algorithm in two Mujoco environments : InvertedPendulum-v4 and Humanoid-v4.
 
 ## Results
 
-My implementation concerns two Mujoco environments : [InvertedPendulum-v4](https://www.gymlibrary.dev/environments/mujoco/inverted_pendulum/) and [Humanoid-v4](https://www.gymlibrary.dev/environments/mujoco/humanoid/).
+My implementation concerns two Mujoco environments : [InvertedPendulum-v4](https://www.gymlibrary.dev/environments/mujoco/inverted_pendulum/) and [Humanoid-v4](https://www.gymlibrary.dev/environments/mujoco/humanoid/). Check my result below !
 
 
 **InvertedPendulum-v4**

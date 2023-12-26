@@ -12,7 +12,7 @@ Reinforcement Learning (RL) is a type of machine learning where an agent learns 
 
 <p align="center">
 
-<img src="https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Docs/RL_schemes.jpg" width="300" height="200">
+<img src="https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Docs/RL_schemes.jpg" width="400" height="200">
 
 </p>
 
@@ -55,7 +55,7 @@ $$ Q_{\pi}(a,s) =\mathrm{E}[G_{t} |s = s_{t},a = a_{t}] =\mathrm{E}[\sum_{k=t+1}
 Our objective in reinforcement learning is to solve the following optimisation problem : 
 
 
-$$\pi = \argmax\mathrm{E}[G_{t}] $$
+$$\pi = \argmax{\mathrm{E}[G_{t}]} $$
 
 In simple terms, we wants the policy that bring us the best rewards path in expectation.
 
@@ -89,7 +89,7 @@ If the policy does not update, $\dfrac{\pi_{\theta}(a_{t}|s_{t})}{\pi_{\theta_{O
 
 The final intuition is satisfying : If we change the policy in a direction such that $\dfrac{\pi_{\theta}(a_{t}|s_{t})}{\pi_{\theta_{Old}}(a_{t}|s_{t})} > 1$, and $\hat{A_{t}}>0$ we increase the probability of doing good action. If the action is wrong, A<0, we penalize the action and thus the policy in this situation.
 The general idea is that we increase the occurrence of right actions and decrease the occurrence of bad ones with this objective.
-Now that we have an understanding of the problem, we can delve into the PPO.
+
 
 Some details are important in this objective :
 
@@ -102,13 +102,15 @@ In the PPO algorithm, the policy is estimated through the help of a Neural Netwo
 
 In the PPO algorithm, the advantage is estimated through the help of a Neural Network(NN) that we call a critic neural network and through the generalized advantage estimation function.
 
+Now that we have an understanding of the problem, we can delve into the PPO.
+
 ## PPO with clipped surrogate objective :
 
 The PPO algorithm works as follows:
 
 
 <p align="center">
-<img src="https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Docs/PPO_Algo.jpg" width="300" height="200">
+<img src="https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Docs/PPO_Algo.jpg" width="400" height="200">
 </p>
 
 The PPO described here (and the one implemented) is called PPO with clipped surrogate objective because of the objective formula : 
@@ -116,7 +118,7 @@ The PPO described here (and the one implemented) is called PPO with clipped surr
 $$ \max_{\theta}\hat{\mathrm{E_{t}}}[\min(\dfrac{\pi_{\theta}(a_{t}|s_{t})}{\pi_{\theta_{Old}}(a_{t}|s_{t})} \hat{A_{t}} , clip(\dfrac{\pi_{\theta}(a_{t}|s_{t})}{\pi_{\theta_{Old}}(a_{t}|s_{t})},1 - \epsilon , 1 + \epsilon)\hat{A_{t}}] $$ 
 
 
-The idea is to take either the initial objective or the clipped one. The intuition is that we want to update the policy, but we do not want to go to far from the actual policy. This is what the clipped part does. The ratio is bounded by $[ 1 - \epsilon , 1 + \epsilon ]$, thus, if the policy update is under the bound, basic objective is used, otherwise the clipped one is used.
+The idea is to take either the initial objective or the clipped one. We want to update the policy, however we do not want to go too far from the actual policy. This is what the clipped part does. The ratio is bounded by $[ 1 - \epsilon , 1 + \epsilon ]$, thus, if the policy update is under the bound, basic objective is used, otherwise the clipped one is used.
 
 This way of penalizing large policy update is not unique, there exist other ways : the trust region methods, the fixed or adaptative Kullback - Leibler penalty. However, these methods are less performant than the clipped surrogate objective according to the Schulman (2017) empirical study. Thus, this method is the one we implement here.
 
