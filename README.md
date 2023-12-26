@@ -20,8 +20,8 @@ The code is organized as follow :
 * parameters.py : contains the parameter of the training.
 * model.py : contains Actor (Forward propagation of actor neural network) and Critic class(Forward propagation of critic neural network).
 * PPO.py : contains PPO class (training process, Kullback-Leibler divergence computation, generalized advantage estimation process) and Normalize class.
-* main.py : contains the code to run.
-* Images : contains graphs and GIF. 
+* main.py : contains the main code to run.
+* Graph : contains graphs and GIF. 
 
 3 - Implement the algorithm in various environment
 
@@ -37,19 +37,20 @@ See bellow fun GIF visualization of how the agents learnt:
 
 **InvertedPendulum-v4**
 
-![Before learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/InvertedPendulum_before.gif)
+![Before learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/InvertedPendulum_before.gif,"Before learning"){: width="300" height="200"}
 
-![After learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Inverted_pendulum_after.gif)
+![After learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Inverted_pendulum_after.gif,"After learning"){: width="300" height="200"}
 
-![Learning Curve](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Inverted_pendulum_learning.png)
+![Learning Curve](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Inverted_pendulum_learning.png,"Learning curve"){: width="300" height="200"}
 
 **Humanoid-v4**
 
-![Before learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_before.gif)
+![Before learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_before.gif,"Before learning"){: width="300" height="200"}
 
-After
+![After learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_after.gif,"After learning"){: width="300" height="200"}
 
-GIF
+![Learning Curve](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_learning.png,"Learning curve"){: width="300" height="200"}
+
 
 ## Citations
 
