@@ -27,7 +27,7 @@ I implement and evaluate the PPO algorithm in two Mujoco environments : Inverted
 
 ## Results
 
-My implementation concerns two Mujoco environments : [InvertedPendulum-v4](https://www.gymlibrary.dev/environments/mujoco/inverted_pendulum/) and [Humanoid-v4](https://www.gymlibrary.dev/environments/mujoco/humanoid/). Check my result below !
+My implementation concerns two Mujoco environments : [InvertedPendulum-v4](https://www.gymlibrary.dev/environments/mujoco/inverted_pendulum/) and [Humanoid-v4](https://www.gymlibrary.dev/environments/mujoco/humanoid/). Check my results below !
 
 
 **InvertedPendulum-v4**
