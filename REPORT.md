@@ -55,7 +55,7 @@ $$ Q_{\pi}(a,s) =\mathrm{E}[G_{t} |s = s_{t},a = a_{t}] =\mathrm{E}[\sum_{k=t+1}
 Our objective in reinforcement learning is to solve the following optimisation problem : 
 
 
-$$\pi = \argmax{\mathrm{E}[G_{t}]} $$
+$$\pi = argmax\mathrm{E}[G_{t}] $$
 
 In simple terms, we wants the policy that bring us the best rewards path in expectation.
 
