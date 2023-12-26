@@ -37,19 +37,19 @@ See bellow fun GIF visualization of how the agents learnt:
 
 **InvertedPendulum-v4**
 
-![Before learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/InvertedPendulum_before.gif,"Before learning"){: width="300" height="200"}
+![Before learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/InvertedPendulum_before.gif "Before learning"){: width="300" height="200"}
 
-![After learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Inverted_pendulum_after.gif,"After learning"){: width="300" height="200"}
+![After learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Inverted_pendulum_after.gif "After learning"){: width="300" height="200"}
 
-![Learning Curve](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Inverted_pendulum_learning.png,"Learning curve"){: width="300" height="200"}
+![Learning Curve](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Inverted_pendulum_learning.png "Learning curve"){: width="300" height="200"}
 
 **Humanoid-v4**
 
-![Before learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_before.gif,"Before learning"){: width="300" height="200"}
+![Before learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_before.gif "Before learning"){: width="300" height="200"}
 
-![After learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_after.gif,"After learning"){: width="300" height="200"}
+![After learning](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_after.gif "After learning"){: width="300" height="200"}
 
-![Learning Curve](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_learning.png,"Learning curve"){: width="300" height="200"}
+![Learning Curve](https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_learning.png "Learning curve"){: width="300" height="200"}
 
 
 ## Citations
