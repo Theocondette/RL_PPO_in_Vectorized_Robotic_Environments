@@ -5,15 +5,14 @@ This project delves into implementing and analyzing the Proximal Policy Optimiza
 
 ## Methodology
 
-1 - Understand Reinforcement Learning(RL) and PPO
+1 - Understand Reinforcement Learning (RL) and PPO
 
-Check REPORT.MD for my explanation about reinforcement learning basis and PPO algorithm.
-Also, I recommand many websites to [learn about RL]( https://spinningup.openai.com/en/latest/spinningup/rl_intro.html), to [learn about Policy Gradient](https://towardsdatascience.com/an-intuitive-explanation-of-policy-gradient-part-1-reinforce-aa4392cbfd3c), and to [learn about PPO](https://medium.com/@eyyu/coding-ppo-from-scratch-with-pytorch-part-1-4-613dfc1b14c8).
+Check REPORT.MD for my explanations about Reinforcement Learning basis and PPO algorithm.
+Also, I recommend many websites to [learn about RL]( https://spinningup.openai.com/en/latest/spinningup/rl_intro.html), to [learn about Policy Gradient](https://towardsdatascience.com/an-intuitive-explanation-of-policy-gradient-part-1-reinforce-aa4392cbfd3c), and to [learn about PPO](https://medium.com/@eyyu/coding-ppo-from-scratch-with-pytorch-part-1-4-613dfc1b14c8).
 
 2 - Code a PPO
 
-Drawing guidance from coding citations bellow, I have coded and commented a full implementation of a PPO. 
-This implementation has been made only for environments with continuous observation and action space.
+Drawing guidance from the coding citations below, I implementated a PPO for environments with continuous observation and action space.
 
 The code is organized as follow :
 
@@ -40,32 +39,39 @@ See bellow fun GIF visualization of how the agents learnt:
 
   
 Before training
+
 <p align="center">
 <img src="https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/InvertedPendulum_before.gif" width="300" height="300">
 </p>
-After training
-<p align="center">
 
+After training
+
+<p align="center">
 <img src="https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Inverted_pendulum_after.gif" width="300" height="300">
 </p>
-<p align="center">
 
+<p align="center">
 <img src="https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Inverted_pendulum_learning.png" width="500" height="300">
 </p>
-**Humanoid-v4**
-Before training
-<p align="center">
 
+**Humanoid-v4**
+
+Before training
+
+<p align="center">
 <img src="https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_before.gif" width="300" height="300">
 </p>
-After training
-<p align="center">
 
+After training
+
+<p align="center">
 <img src="https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_after.gif" width="300" height="300">
 </p>
+
 <p align="center">
 <img src="https://github.com/Theocondette/RL_PPO_in_Vectorized_Robotic_Environments/blob/main/Graph/Humanoid_learning.png" width="500" height="300">
 </p>
+
 ## Citations
 
 ### Paper
