@@ -20,7 +20,6 @@ The code is organized as follow :
 * model.py : contains Actor (Forward propagation of actor neural network) and Critic class(Forward propagation of critic neural network).
 * PPO.py : contains PPO class (training process, Kullback-Leibler divergence computation, generalized advantage estimation process) and Normalize class.
 * main.py : contains the main code to run.
-* Graph : contains graphs and GIF. 
 
 3 - Implement the algorithm in various environment
 
@@ -32,7 +31,6 @@ The code is organized as follow :
 
 My implementation concerns two Mujoco environments : [InvertedPendulum-v4](https://www.gymlibrary.dev/environments/mujoco/inverted_pendulum/) and [Humanoid-v4](https://www.gymlibrary.dev/environments/mujoco/humanoid/).
 
-See bellow fun GIF visualization of how the agents learnt:
 
 **InvertedPendulum-v4**
 
